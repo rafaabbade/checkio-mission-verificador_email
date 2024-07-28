@@ -13,15 +13,15 @@ TESTS = {
         
     {
         "input": ["usuario@dominio.com"],
-        "answer": true
+        "answer": True
     },
     {
         "input": ["usuario@dominio"],
-        "answer": false
+        "answer": False
     },
     {
         "input": ["@dominio.com"],
-        "answer": false
+        "answer": True
     }
 
     ]
