@@ -1,1 +1,13 @@
-{{CODIGO INICIAL}}
+def verificador_email(email):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(verificador_email("usuario@dominio.com"))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert verificador_email("usuario@dominio.com") == True
+assert verificador_email("usuario@dominio") == False
+assert verificador_email("@dominio.com") == False
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

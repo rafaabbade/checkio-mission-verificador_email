@@ -2,60 +2,74 @@
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 1}}
+    Como posso verificar se um caractere ou string está presente em uma string?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 1}}
+    Você pode usar a condição in para verificar se uma substring está presente em uma string. Por exemplo:
+<pre class="brush: python">
+palavra = "exemplo"
+if "x" in palavra:
+print("A letra 'x' está presente")
+else:
+print("A letra 'x' não está presente")
+</pre>
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 2}}
+    Como posso garantir que uma string não comece com um caractere específico?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 2}}
+    Você pode usar o método .startswith() combinado com not para verificar se a string não começa com um caractere específico:
+<pre class="brush: python">
+frase = ".começando_com_ponto"
+if not frase.startswith("."):
+print("A frase não começa com um ponto")
+else:
+print("A frase começa com um ponto")
+</pre>
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 3}}
+    5
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 3}}
+    6
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 4}}
+    7
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 4}}
+    8
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 5}}
+    9
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 5}}
+    10
    </p>
   </div>
  </div>

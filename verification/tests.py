@@ -10,6 +10,19 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        {{TESTES}}
+        [
+    {
+        "input": ["usuario@dominio.com"],
+        "answer": true
+    },
+    {
+        "input": ["usuario@dominio"],
+        "answer": false
+    },
+    {
+        "input": ["@dominio.com"],
+        "answer": false
+    }
+]
     ]
 }
