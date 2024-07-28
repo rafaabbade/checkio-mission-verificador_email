@@ -10,7 +10,7 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        [
+        
     {
         "input": ["usuario@dominio.com"],
         "answer": true
@@ -23,6 +23,6 @@ TESTS = {
         "input": ["@dominio.com"],
         "answer": false
     }
-]
+
     ]
 }
