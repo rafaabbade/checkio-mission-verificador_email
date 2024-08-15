@@ -21,7 +21,7 @@ TESTS = {
     },
     {
         "input": ["@dominio.com"],
-        "answer": True
+        "answer": False
     }
 
     ]
